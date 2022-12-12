@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".DetailActivity"
+    android:background="@drawable/backgroundcolor"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="25dp"
+        app:cardBackgroundColor="@color/rickandmortyColor1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="150dp">
+
+            <TextView
+                android:id="@+id/textDetailName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/rickandmortyColor"
+                android:textSize="20sp"
+                android:gravity="center"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/textDetailDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loading"
+                android:textColor="@color/rickandmortyColor"
+                android:textSize="20sp"
+                android:gravity="center"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/textDetailEpisode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/rickandmortyColor"
+                android:textSize="20sp"
+                android:gravity="center"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textCharactersTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Characters"
+        android:textColor="@color/rickandmortyColor"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        >
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewDetay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="289dp" />
+
+</LinearLayout>
