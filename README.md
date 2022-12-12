@@ -1,8 +1,6 @@
 # Kotlin-RickAndMorty
 
-
-
-https://user-images.githubusercontent.com/88456285/207177882-5227bdac-2377-4ddd-a1f1-bc8078586274.mp4
+https://user-images.githubusercontent.com/88456285/207180669-2d3449d8-1ef2-4206-9456-d831cc935ce3.mp4
 
 ## Kullanılan Teknolojiler
 
