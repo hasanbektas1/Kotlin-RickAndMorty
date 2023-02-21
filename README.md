@@ -4,6 +4,7 @@
  - https://rickandmortyapi.com/api/episode API araclığı ile gelen tüm bölümlere ait veriler uygulamanın ana ekranında listelenmiştir.
  - Herhangi bir bölümün üzerine tıklandığında o bölüme ait API ye istek atılmalıp ve bölüme ait gelen bilgiler uygulama üzerinde gösterilmiştir.
  - Açılan bölüm sayfasında bölümde bulunan karakterler listelenmeliş olup ve karaktere tıklandığında karakter ile ilgili bilgiler API aracılığı ile alınarak ekrana dökülmüştür.
+ - 
  - ## Kullanılan Teknolojiler
 
 - App Icon
